@@ -1,0 +1,31 @@
+.con-content{
+    height: 80vh;
+    display: block;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+  overflow: hidden;
+}
+hr.new5 {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+.con-content::after {
+
+    content: "";
+   
+    background-image: url("../img/bl.webp");
+    position: absolute;
+    width: 100%;
+    z-index:-1;
+    height: inherit;
+    opacity: 0.5;
+    top:0px;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type="text"],#texta{
+    border: 2px solid black;
+    border-radius: 3px;
+}

@@ -1,0 +1,42 @@
+@media screen  and (max-width: 1200px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .right{
+        margin-left: 70px;
+    }
+    .left{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content .lef{
+        width: 100%;
+    }
+    .content .rig{
+        display: none;
+       }
+       .home-article{
+        flex-direction: column;
+       }
+       .home-article-img{
+        text-align: center;
+        /* width: 70vw; */
+       }
+       .form-input{
+        width: 50%;
+       }
+       .home-article img{
+        width: 70vw;
+       }
+       .row1 {
+        display: flex;
+        flex-direction: column;
+    }
+  .post-img{
+    height: auto;
+  }
+}
+
+
+
